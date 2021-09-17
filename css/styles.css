@@ -1,0 +1,53 @@
+
+
+h1,h3,h5,h2,#navbar{
+    font-family: 'MonteCarlo', cursive;
+    color: white;
+    
+}
+
+h3,h5,h2{
+    color: rgb(0, 0, 0);
+}
+
+#navbar{
+    background-color: green;
+    
+}
+
+#navbar > h1 {
+    color: white;
+}
+
+.jumbotron{
+    background-image: url("/img/jan-canty-KcQuXaHCSPE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    }
+
+.par1{
+    border-bottom: solid green;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+body > .container{
+    min-height: 30vh;
+}
+
+.breadcrumb{
+    background-color: green;
+    color: white;
+    
+}
+.breadcrumb-item > a {
+    color: white;
+    
+}
+
+.breadcrumb-item::after{
+    color: white;
+}
